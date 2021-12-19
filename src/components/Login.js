@@ -19,14 +19,7 @@ const Login = () => {
                     <GoogleOutlined /> Sign In with Google
                 </div>
 
-                <br /> <br />
-
-                <div
-                    className="login-button facebook"
-                    onClick={() => signInWithRedirect(auth, new FacebookAuthProvider())}
-                >
-                    <FacebookOutlined /> Sign In with Facebook
-                </div>
+                <br />
             </div>
         </div>
     )
