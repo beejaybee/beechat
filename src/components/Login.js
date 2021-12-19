@@ -1,6 +1,6 @@
-import { GoogleOutlined, FacebookOutlined } from "@ant-design/icons"
+import { GoogleOutlined } from "@ant-design/icons"
 import "firebase/app";
-import { GoogleAuthProvider, FacebookAuthProvider, signInWithRedirect } from 'firebase/auth';
+import { GoogleAuthProvider, signInWithRedirect } from 'firebase/auth';
 
 import { auth } from '../firebase';
 
